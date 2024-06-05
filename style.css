@@ -1,0 +1,203 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-position: #f4f4f4;
+    color: #000000;
+    direction: rtl;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #e3e7e2;
+    color: white;
+    text-align: center;
+    padding: 0.2em;
+  }
+  
+  /* Navigation styling */
+   nav {
+    background-color: #f6f8f5;
+    padding: 0.1em;
+    text-align: center;
+  } 
+  
+  nav ul {
+    list-style-type:circle;
+  }
+  
+  nav ul li {
+    display:inline-table;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+  }
+  
+  #app{
+    text-align:center;
+  }
+
+  
+  #button {
+    text-align: center;
+  }
+
+
+  /* تنسيق الجدول */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  direction: rtl;
+  
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(204, 159, 246);
+  color: black;
+  text-align: center;
+}
+
+*{
+  margin:0;
+
+}
+.mt-table{
+
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  
+}
+.continer{
+  
+ 
+  width: 80%;
+
+  
+}
+table{
+
+  width:100%;
+
+}
+table thead{
+  background-color: rgba(196, 194, 191, 0.897);
+  
+}
+table thead tr{
+  height: 40px;
+
+}
+/*--------------------*/
+table tbody {
+  background-color: rgba(203, 234, 241, 0.932);
+}
+table tbody tr{
+  text-align: center;
+
+  width:100%;
+}
+
+.text{
+  list-style: none;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.text li {
+  margin: 10px 0px;
+}
+.imges{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+  
+}
+
+img{
+  width:150px;
+  height: 200px;
+}
+.hid{
+  display: none;
+}
+
+
+*{
+  margin:0;
+
+}
+.mt-table{
+
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  
+}
+.continer{
+  
+ 
+  width: 80%;
+
+  
+}
+table{
+
+  width:100%;
+
+}
+table thead{
+  background-color: rgba(196, 194, 191, 0.897);
+  
+}
+table thead tr{
+  height: 40px;
+
+}
+/*--------------------*/
+table tbody {
+  background-color: rgba(203, 234, 241, 0.932);
+}
+table tbody tr{
+  text-align: center;
+
+  width:100%;
+}
+
+.text{
+  list-style: none;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.text li {
+  margin: 10px 0px;
+}
+.imges{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+  
+}
+
+img{
+  width:150px;
+  height: 200px;
+}
+.hid{
+  display: none;
+}
+
+
+
